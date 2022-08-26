@@ -37,6 +37,10 @@ In 3 tier architecture, a data layer is introduce and serve only handles the log
    Ex: Amazon, etc.
 
 4. N-Tier Architecture
+![img_3.png](img_3.png)
+
+N-Tier system can also have more than 3 layers such as load balancers and caching layer, etc. This is usually in case of large distributed systems.
+
 
 
 
