@@ -40,6 +40,13 @@ These design patterns provide a way to create objects while hiding the creation 
 1. **Singleton Design Pattern**:  
    Lets you ensure that a class has only one instance, while providing a global access point to this instance.  
 
-2. 
+
+2. **Factory Design Pattern**:  
+   Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.  
+
+
+3. **Abstract Factory Pattern**:  
+   Lets you produce families of related objects without specifying their concrete classes.
+
    
 
