@@ -1,7 +1,7 @@
 # System Design- Proxy
 ## Concepts and Consideration of Proxy's in System Design
 
-![img.png](Assets/proxy_intro.png)
+![img.png](../Assets/proxy_intro.png)
 
 ### Concepts
 A proxy server is an intermediary piece of hardware/software sitting between the client and the backend server.  
@@ -16,7 +16,7 @@ A proxy server is an intermediary piece of hardware/software sitting between the
 * **Security**: A proxy server can also be used to beef up security for a business. A proxy server can provide network address translation, which makes the individual users and computers on the network anonymous when they are using the Internet. This makes it much harder for hackers to access individual computers on the network.
 
 ### Proxy Server Types
-![img_4.png](Assets/Proxy_server_type.png)
+![img_4.png](../Assets/Proxy_server_type.png)
 #### Open-Proxy
 Also known as forward proxy, is a proxy server that is accessible by any Internet user. Generally, a proxy server only allows users within a networking group (i.e. a closed proxy) to store and forward Internet services such as DNS or web pages to reduce and control the bandwidth used by the group. With an open proxy, however, any user on the Internet is able to use this forwarding service.
 
@@ -36,7 +36,7 @@ Common uses for a reverse proxy server include:
 
 ### API Gateway
 #### Concept
-![img_5.png](Assets/api_gateway.png)
+![img_5.png](../Assets/api_gateway.png)
 An API gateway is an API management tool that sits between a client and a collection of backend services. An API gateway is a layer 7 (HTTP) router that acts as a reverse proxy to accept all API calls, aggregate the various services required to fulfill them, and return the appropriate result.
 
 With an API gateway, one simply exposes and scales a single collection of services (the API gateway) and updates the API gateway’s configuration whenever a new upstream should be exposed externally. e.g. Zuul is an L7 application gateway that is able to auto-discover services registered in the Eureka server.
