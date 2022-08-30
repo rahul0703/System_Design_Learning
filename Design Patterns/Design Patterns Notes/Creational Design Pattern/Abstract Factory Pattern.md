@@ -30,8 +30,7 @@ We are going to create a Shape interface and a concrete class implementing it. W
 
 AbstractFactoryPatternDemo, our demo class uses FactoryProducer to get a AbstractFactory object. It will pass information (CIRCLE / RECTANGLE / SQUARE for Shape) to AbstractFactory to get the type of object it needs.
 
-![img.png](../../Assets/abstract_factory.png)  
-
+![img.png](../../Assets/abstract_factory.png)
 ### Step 1
 Create an interface/abstract class for type of object we want.
 ```java
