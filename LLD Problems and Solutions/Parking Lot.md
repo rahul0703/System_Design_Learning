@@ -176,6 +176,7 @@ class ParkingTicket {
     
     }
 ```
+
 ```java
 public enum ParkingSpaceType {
 	
