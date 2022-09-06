@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Design Patterns/Design Patterns.iml" filepath="$PROJECT_DIR$/Design Patterns/Design Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA Object Oriented Concept/JAVA Object Oriented Concept.iml" filepath="$PROJECT_DIR$/JAVA Object Oriented Concept/JAVA Object Oriented Concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/LLD Problems and Solutions/LLD Problems and Solutions.iml" filepath="$PROJECT_DIR$/LLD Problems and Solutions/LLD Problems and Solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/System Design.iml" filepath="$PROJECT_DIR$/.idea/System Design.iml" />
     </modules>
